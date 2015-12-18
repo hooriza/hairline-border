@@ -3,11 +3,12 @@
 	<head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-	<title>JS Bin</title>
+	<title>hairline border Demo</title>
 	<style>
 		body { background-color:#888; }
 		li { position:relative; padding:10px; margin:10px; background-color:#fff; }
-	}
+
+		#border-radius-fix::before { border-radius:40px; }
 	</style>
 	<link rel="stylesheet" href="css/hairline.css">
 </head>
@@ -30,7 +31,7 @@
 	<ul>
 		<li style="border:1px solid #000;" class="hairline">one</li>
 		<li style="border:1px dashed #f00;" class="hairline">two</li>
-		<li style="border:1px solid #000; border-radius:10px; border-top-color:#f00;" class="hairline">three</li>
+		<li style="border:1px solid #000; border-radius:20px; border-top-color:#f00;" class="hairline" id="border-radius-fix">three</li>
 		<li style="border-top:1px solid #f00;" class="hairline">four</li>
 	</ul>
 </body>

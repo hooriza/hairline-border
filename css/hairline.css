@@ -21,6 +21,11 @@ _:-webkit-full-screen, :root .hairline::before {
 	border:inherit;
 	border-width:1px;
 	border-radius:inherit;
+	/*
+		보정할 방법이 정녕 없는 것인가...
+		border-radius: calc(inherit*2)
+		border-radius: calc(attr(data-border-radius px)*2);
+	*/
 
 	transform:scale(.5) translate3d(0,0,0);
 	transform-origin:left top;
