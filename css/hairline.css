@@ -22,7 +22,7 @@ _:-webkit-full-screen, :root .hairline::before {
 	border-width:1px;
 	border-radius:inherit;
 	/*
-		보정할 방법이 정녕 없는 것인가...
+		자동으로 보정할 방법이 정녕 없는 것인가...
 		border-radius: calc(inherit*2)
 		border-radius: calc(attr(data-border-radius px)*2);
 	*/
