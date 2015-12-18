@@ -1,4 +1,4 @@
-# border-hairline
+# hairline-border
 hairline border 를 쉽게 그릴 수 있도록 도와주는 CSS
 
 ## 사용방법
