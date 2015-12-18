@@ -14,7 +14,7 @@ hairline.css 를 추가하고, 그냥 원하는 엘리먼트에 hairline 클래�
 ````
 
 ## 데모
-https://hooriza.github.io/border-hairline/demo.html
+http://bit.ly/1RVOSzQ
 
 ## 주의사항
 position:static 인 엘리먼트에는 hairline 클래스명을 사용 할 수 없습니다.
