@@ -10,6 +10,7 @@ _:-webkit-full-screen, :root .hairline {
 
 _:-webkit-full-screen, :root .hairline::before {
 	content:'';
+	pointer-events:none;
 
 	position:absolute;
 	box-sizing:border-box;
