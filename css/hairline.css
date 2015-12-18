@@ -4,11 +4,13 @@
 	border-width:.5px !important;
 }
 
-_:-webkit-full-screen, :root .hairline {
+_:-webkit-full-screen, :root .hairline,
+.android .hairline {
 	border-width:0 !important;
 }
 
-_:-webkit-full-screen, :root .hairline::before {
+_:-webkit-full-screen, :root .hairline::before,
+.android .hairline::before {
 	content:'';
 	pointer-events:none;
 
