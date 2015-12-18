@@ -1,10 +1,14 @@
 /* @author hooriza@gmail.com */
 
 .hairline {
+	border-width:.5px !important;
+}
+
+_:-webkit-full-screen, :root .hairline {
 	border-width:0 !important;
 }
 
-.hairline::before {
+_:-webkit-full-screen, :root .hairline::before {
 	content:'';
 
 	position:absolute;
