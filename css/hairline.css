@@ -1,0 +1,25 @@
+/* @author hooriza@gmail.com */
+
+.hairline {
+	position:relative;
+	border-width:0 !important;
+}
+
+.hairline::before {
+	content:'';
+
+	position:absolute;
+	box-sizing:border-box;
+
+	left:0; top:0;
+	width:200%; height:200%;
+
+	border:inherit;
+	border-width:1px;
+	border-radius:inherit;
+
+	transform:scale(.5);
+	transform-origin:left top;
+	-webkit-transform:scale(.5);
+	-webkit-transform-origin:left top;
+}
