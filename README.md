@@ -52,7 +52,7 @@ http://bit.ly/1ZfiH0o
 ## Attention (In case of Android)
 * You can't use the 'hairline' className onto what element be set 'position:absolute'.
 * You can't use '::before' with the 'hairline' className.
-* If you use 'border-radius' with the 'hairline' classNane, it will show a undesirable layout.
+* If you use 'border-radius' with the 'hairline' className, it will show a undesirable layout.
 
 	````html
 	<!-- If you want to solve this problem, The 'border-radius' have to be set 2 times in '::before' pseudo-element. -->
